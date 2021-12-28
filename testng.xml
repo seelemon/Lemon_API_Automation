@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="接口1">
+    <test name="C:/Users/SEMON/IdeaProjects/Java_project">
+        <classes>
+            <class name="com.lemon.testcase.LemonRegister"></class>
+            <class name="com.lemon.testcase.LemonLogin"></class>
+            <class name="com.lemon.testcase.LemonGetUserInfo"></class>
+            <class name="com.lemon.testcase.LemonRecharge"></class>
+            <class name="com.lemon.testcase.LemonWithdraw"></class>
+            <class name="com.lemon.testcase.LemonAdd"></class>
+            <class name="com.lemon.testcase.LemonAudit"></class>
+        </classes>
+    </test>
+</suite>
