@@ -98,8 +98,6 @@ public class BaseCase {
         while (matcher.find()){
             findStr = matcher.group(0);//;连续匹配，将最终匹配的字符串取出来
             firstGroupStr = matcher.group(1);
-            System.out.println(findStr);
-            System.out.println(firstGroupStr);
             Object replaceEnvStr = GlobalEnvironment.envVariable.get(firstGroupStr);//取出（）中的数据
             sourceStr =  sourceStr.replace(findStr,replaceEnvStr+"");//替换最终字符串
         }
